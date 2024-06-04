@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #E7E3C5;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    width: 800px;
+    height: auto;
+}
+
+.registrar .login{
+    flex: 1;
+}
+
+.registrar input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #54777D;
+    font-size: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+/* .registrar::after{
+    content: '>';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    right: -23px;
+    padding: 10px;
+    text-align: center;
+    font-size: 19px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, .2);
+    color: #7c7c7c;
+  } */
+
+
+.registrar{
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    width: 400px;
+}
+
+.registrar h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #139487;
+    font-weight: 600;
+}
+
+.registrar .submit{
+    background-color: #F78536;
+    color: white;
+    padding: 10px;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.registrar input:active,
+.registrar input:focus{
+    outline: none;
+}
+
+.login{
+    padding: 40px;
+    background-color: #139487;
+    width: 400px;
+}
+
+.login h3{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.login .fb{
+    margin-bottom: 40px;
+    background-color: #31588A;
+    padding: 13px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login .twitter{
+    margin-bottom: 40px;
+    background-color: #79C2D0;
+    padding: 13px 10px;;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login .email{
+    margin-bottom: 40px;
+    background-color: #41EECB;
+    padding: 13px 10px;;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+

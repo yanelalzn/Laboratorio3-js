@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="registrar">
+                <h3>Registrarse</h3>
+                <form id="miFormulario">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre y Apellido" id="nombre" class="nombre">
+                        <span class="error" id="nombreError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo Electronico" id="correo" class="correo">
+                        <span class="error" id="correoError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="DNI" id="dni" class="dni">
+                        <span class="error" id="dniError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nro de Celular" id="celular" class="celular">
+                        <span class="error" id="celularError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Contraseña" id="password" class="pass">
+                        <span class="error" id="passwordError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Confirmar contraseña" id="confirmarPassword" class="pass">
+                        <span class="error" id="confirmarPasswordError"></span>
+                    </div>
+                    <input type="submit" value="Registrarse" class="submit">
+                </form>
+            </div>
+            <div class="login">
+                <h3>Iniciar Sesión</h3>
+                <div class="login-items">
+                    <div class="fb">
+                        <i class='bx bxl-facebook' style='color:#ffffff'  ></i>
+                        <a href="">Acceder a Facebook</a>
+                    </div>
+                    <div class="twitter">
+                        <i class='bx bxl-twitter' style='color:#ffffff'  ></i>
+                        <a href="">Acceder con Twitter</a></div>
+                    <div class="email">
+                        <i class='bx bxs-envelope' style='color:#ffffff' ></i>
+                        <a href="">Acceder con Correo</a></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
